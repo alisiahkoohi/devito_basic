@@ -1,0 +1,12 @@
+name: devito
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - git+https://github.com/devitocodes/devito.git
+    - h5py
+    - matplotlib
+    - numpy
+    - tqdm
